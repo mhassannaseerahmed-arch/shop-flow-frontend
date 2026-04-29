@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: process.env.REACT_APP_API_URL
+    baseURL: "https://shop-flow-backend-three.vercel.app/api"
 });
 
 // Add a request interceptor to include auth token
